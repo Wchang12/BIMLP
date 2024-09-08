@@ -512,7 +512,5 @@ def main(seed):
         logging.info(res_info1)
         logging.info(res_info2)
 if __name__ == '__main__':
-    #for i in range(100):
-    #seed = random.randint(1, 100000000)
     seed = 14882089
     main(seed)
